@@ -1,6 +1,5 @@
-import { romanNumerals } from "../../../data/roman";
-
+import { data } from "../../../data/data";
 
 export default function handler(req, res){
-    res.status(200).json(romanNumerals)
+    res.status(200).json(data)
 }
